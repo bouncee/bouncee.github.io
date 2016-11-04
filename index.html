@@ -9,12 +9,63 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<head><script src="//delivery.adrecover.com/15753/adRecover.js" type="text/javascript" async=""></script></head><body><h1 align="center" style="color:red;">My stuff</h1>
-<h2 align="center"><a href="http://ludumdare.com/compo/author/ajayajayaj/" style="color:orange;">Ludum Dare</a></h2>
-<h3 align="center"><a href="https://play.google.com/store/apps/developer?id=Ajay+Ramachandran+-+The+best+person+in+the+world!!&amp;hl=en" style="color:green;">Google Play</a></h3>
-<h4 align="center"><a href="https://github.com/ajayyy/" style="color:grey;">Git Hub</a></h4>
+<head>
+        <title>Yes, No, Better - Online Decision Maker &amp; Oracle</title>
+        <meta name="viewport" href="width=350,initial-scale=1">
+        <link rel="canonical" href="http://yesnomaybe.info/">
+        <meta property="og:image" content="http://yesnomaybe.info/images/yesno.png">
+        <meta name="google-site-verification" content="9ngF2fNb5Di5me6VTLH_V9SaJ_wFlREUifNU9tv92O4">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="description" content="Get a fast, free Yes, No or Better answer for all your questions from the Random Decision Maker &amp; Online Oracle!">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, must revalidate">
+        <link rel="stylesheet" type="text/css" href="test.css">
+        <link rel="alternate" type="application/rss+xml" title="Yes, No, Better" href="http://yesnomaybe.info/yesnomaybe.xml">
+    </head>
+    <body class="maybe" ,="" id="background">
+        <b><a href="http://yesnobetter.tk" title="Yes, No, Better? - Click to get another Random Answer" class="maybe" ,="" id="choice">What's your question?</a>
 
-<br><br><br><br><br>
+        <span id="face">¯\_(ツ)_/¯</span>
+    	<br>
+	</b>
+        <textarea cols="65" rows="12" name="question" id="question" title="What is your question?"></textarea><br><input type="submit" value=">> Click Button" title="Ask your question." ,="" onclick="randomAnswer();">
 
-<h5 align="center"><a href="/splats" style="color:magenta;">There's also this...</a></h5>
+        <br>
+        <div class="text">
+            <center>Yes, No, Better is the Better Online Decision Maker!</center>
+        </div>
+        <br><br>
+        <div class="footer">
+            <br>Based on yesnomaybe.info
+        </div>
+
+        <script type="text/javascript" ,="" src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js">
+        </script>
+
+		<script type="text/javascript">
+
+			document.getElementById("face").innerHTML = "¯\\_(ツ)_/¯";
+
+        	function randomAnswer(){
+
+        		Math.seedrandom(document.getElementById('question').value);
+				if(Math.random() > 0.5){
+					document.getElementById("background").className = "yes";
+					document.getElementById("choice").className = "yes";
+					document.getElementById("choice").innerHTML = "Yes";
+					document.getElementById("face").innerHTML = ":)";
+				}else{
+					document.getElementById("background").className = "no";
+					document.getElementById("choice").className = "no";
+					document.getElementById("choice").innerHTML = "No";
+					document.getElementById("face").innerHTML = ":(";
+				}
+        	}
+
+			
+		</script>	
+
+    
+
 
