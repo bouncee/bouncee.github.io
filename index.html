@@ -9,25 +9,63 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<head>
-<title>yesnobetter.tk</title>
-    <meta name="description" content="yesnobetter.tk">
-    <meta name="keywords" content="yesnobetter.tk">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-23441223-3']);
-        _gaq.push(['_setDomainName', 'none']);
-        _gaq.push(['_setAllowLinker', true]);
-        _gaq.push(['_trackPageview']);
-        (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-  </head>
-  <frameset rows="*">
-    <frame frameborder=0 src="http://ajayinkingston.com/yesnobetter.html" name="dot_tk_frame_content" scrolling="auto" noresize>
-  </frameset>
+    <head>
+        <title>Yes, No, Better - Online Decision Maker & Oracle</title>
+        <meta name="viewport" href="width=350,initial-scale=1">
+        <link rel="canonical" href="http://yesnomaybe.info/">
+        <meta property="og:image" content="http://yesnomaybe.info/images/yesno.png">
+        <meta name="google-site-verification" content="9ngF2fNb5Di5me6VTLH_V9SaJ_wFlREUifNU9tv92O4">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="description" content="Get a fast, free Yes, No or Better answer for all your questions from the Random Decision Maker & Online Oracle!">
+        <meta http-equiv='expires' content='0'>
+        <meta http-equiv='pragma' content='no-cache'>
+        <meta http-equiv='Cache-Control' content='no-cache, must revalidate'>
+        <link rel="stylesheet" type="text/css" href="http://yesnomaybe.info/css/yes-no-maybe.css">
+        <link rel="alternate" type="application/rss+xml" title="Yes, No, Better" href="http://yesnomaybe.info/yesnomaybe.xml">
+    </head>
+    <body class="maybe", id="background">
+        <b><a href="http://yesnobetter.tk" title="Yes, No, Better? - Click to get another Random Answer" class="maybe", id="choice">What's your question?</a>
+
+        <span id="face">
+        	¯_(ツ)_/¯
+        </span>
+    	<br>
+	</b>
+        <textarea cols="65" rows="12" name="question" id="question" title="What is your question?"></textarea><br><input type="submit" value=">> Click Button" title="Ask your question.", onclick="randomAnswer();">
+
+        <br>
+        <div class="text">
+            <center>Yes, No, Better is the Better Online Decision Maker!</center>
+        </div>
+        <br><br>
+        <div class="footer">
+            <center><br>Based on yesnomaybe.info</center>
+        </div>
+
+        <script type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js">
+        </script>
+
+		<script type="text/javascript">
+
+			document.getElementById("face").innerHTML = "¯\\_(ツ)_/¯";
+
+        	function randomAnswer(){
+
+        		Math.seedrandom(document.getElementById('question').value);
+				if(Math.random() > 0.5){
+					document.getElementById("background").className = "yes";
+					document.getElementById("choice").className = "yes";
+					document.getElementById("choice").innerHTML = "Yes";
+					document.getElementById("face").innerHTML = ":)";
+				}else{
+					document.getElementById("background").className = "no";
+					document.getElementById("choice").className = "no";
+					document.getElementById("choice").innerHTML = "No";
+					document.getElementById("face").innerHTML = ":(";
+				}
+        	}
+
+			
+		</script>	
 
 
