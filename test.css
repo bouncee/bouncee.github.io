@@ -1,0 +1,65 @@
+body.yes
+{
+background: lime;
+text-align: center;
+vertical-align: middle;
+margin-top: 0px;
+}
+a.yes {
+font-family: "Courier New", Courier, monospace;
+font-size: 170px;
+color: green;
+}
+body.no
+{
+background: red;
+text-align: center;
+vertical-align: middle;
+margin-top: 0px;
+}
+a.no {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 175px;
+color: crimson;
+}
+body.maybe
+{
+background: orange;
+text-align: center;
+vertical-align: middle;
+margin-top: 0px;
+}
+a.maybe {
+font-family: "Book Antiqua", Palatino, serif;
+font-size: 150px;
+color: yellow;
+}
+textarea{
+width:700px;
+height:290px;
+font-family: helvetica;
+font-size: 60px;
+color: black;
+}
+input{
+width:700px;
+height:60px;
+font-family: helvetica;
+font-size: 50px;
+color: black;
+}
+div.footer{
+width:100%;
+font-family: helvetica;
+font-size: 60px;
+color: gray;
+}
+div.text{
+font-family: arial;
+font-size: 60px;
+color: black;
+width:534px;
+margin-left:auto;
+margin-right:auto;
+}
+
